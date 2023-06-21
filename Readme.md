@@ -16,6 +16,11 @@ To prove our code's reproducibility, we present validation Set5 dataset (5 image
   <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/c6560d72-e14f-4ab9-b6ae-f947865a702d.jpg">
 </p>
 
+<p align="center">
+  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/1a317e8c-e8fd-4518-9770-1f84ec9962de.jpg">
+</p>
+
+
 
 # Datasets
 
