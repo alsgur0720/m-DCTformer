@@ -12,7 +12,9 @@ Images dir : '../DIV2K_dataset/benchmark/Set5/HR'
 
 
 # m-DCTformer weights
-weights link : https://drive.google.com/file/d/1bsiOAK09JSqH68rHIvwA5r1Cm6YCgDaP/view?usp=sharing
+[weights link : https://drive.google.com/file/d/1bsiOAK09JSqH68rHIvwA5r1Cm6YCgDaP/view?usp=sharing](https://drive.google.com/file/d/1OzgnpXWDEkUvJOaldArk0yT-rRqAZgyZ/view?usp=sharing, https://drive.google.com/file/d/1jAC0sDJx4qTbTijLDQuXJ4077vHDb2Tm/view?usp=sharing
+)https://drive.google.com/file/d/1OzgnpXWDEkUvJOaldArk0yT-rRqAZgyZ/view?usp=sharing, https://drive.google.com/file/d/1jAC0sDJx4qTbTijLDQuXJ4077vHDb2Tm/view?usp=sharing
+
 
 dir:
 './weights'
