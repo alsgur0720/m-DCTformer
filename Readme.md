@@ -20,7 +20,9 @@ To prove our code's reproducibility, we present validation Set5 dataset (5 image
   <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/1a317e8c-e8fd-4518-9770-1f84ec9962de.jpg">
 </p>
 
-
+<p align="center">
+  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/e6cfa405-65eb-4040-93f9-0e095e4c03c5.jpg">
+</p>
 
 # Datasets
 
