@@ -7,7 +7,7 @@ This code is the PyTorch implementation of m-DCTformer.
 
 
 <p align="center">
-  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/d95079cb-a669-466d-a7c4-819b39d281f5.jpg">
+  <img src="./demo/figure5.jpg">
 </p>
 
 <p align="center">
