@@ -9,7 +9,7 @@ To prove our code's reproducibility, we present validation Set5 dataset (5 image
 
 
 <p align="center">
-  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/d95079cb-a669-466d-a7c4-819b39d281f5">
+  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/d95079cb-a669-466d-a7c4-819b39d281f5.jpg">
 </p>
 
 
