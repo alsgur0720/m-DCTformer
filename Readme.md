@@ -11,15 +11,15 @@ This code is the PyTorch implementation of m-DCTformer.
 </p>
 
 <p align="center">
-  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/c6560d72-e14f-4ab9-b6ae-f947865a702d.jpg">
+  <img src="./demo/supple_figure12.jpg">
 </p>
 
 <p align="center">
-  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/1a317e8c-e8fd-4518-9770-1f84ec9962de.jpg">
+  <img src="./demo/supple_figure16.jpg">
 </p>
 
 <p align="center">
-  <img src="https://github.com/alsgur0720/m-DCTformer/assets/81404542/e6cfa405-65eb-4040-93f9-0e095e4c03c5.jpg">
+  <img src="./demo/supple_figure7.jpg">
 </p>
 
 # Datasets
