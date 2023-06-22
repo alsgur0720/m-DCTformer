@@ -17,12 +17,11 @@ This code is the PyTorch implementation of m-DCTformer.
   <img src="./demo/demo_figure4.jpg">
 </p>
 
+# Demo Video
+
 <p align="center">
   <img src="./demo/demo1.gif">
 </p>
-
-# Demo Video
-download link : https://drive.google.com/file/d/1SjaKge9VnREX1TXnpRPcuqMj9VbVIfKd/view?usp=sharing
 
 
 # Datasets
@@ -31,10 +30,6 @@ Images dir : '../DIV2K_dataset/benchmark/Set5/HR'
 
 
 # m-DCTformer weights
-https://drive.google.com/file/d/1OzgnpXWDEkUvJOaldArk0yT-rRqAZgyZ/view?usp=sharing, https://drive.google.com/file/d/1jAC0sDJx4qTbTijLDQuXJ4077vHDb2Tm/view?usp=sharing
-
-
-
 dir:
 './weights'
 
