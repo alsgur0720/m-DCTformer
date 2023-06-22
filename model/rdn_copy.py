@@ -52,9 +52,9 @@ class H2A2SR(nn.Module):
 
         mask = torch.ones((h, w), dtype=torch.int64, device = torch.device('cuda:0'))
         # mask = torch.ones((th, tw), dtype=torch.int64, device = torch.device('cuda:0'))
-        #diagonal 이 양수일 경우 대각선 라인이 왼쪽 상단으로 향함
+
         diagonal = w-2
-        ## lf, hf 나누기
+
         lf_mask = torch.fliplr(torch.triu(mask, diagonal)) == 1
         hf_mask = torch.fliplr(torch.triu(mask, diagonal)) != 1
         
@@ -66,8 +66,7 @@ class H2A2SR(nn.Module):
 
         dhf = x * hf_mask
 
-        ## 모델 시작
-        ## 고주파 집중네트워크f
+
         x = self.idct(x)
         hf = self.idct(dhf)
         
@@ -176,9 +175,9 @@ class H2A2SR(nn.Module):
         x = x * expand
         mask = torch.ones((h, w), dtype=torch.int64, device = torch.device('cuda:0'))
         # mask = torch.ones((th, tw), dtype=torch.int64, device = torch.device('cuda:0'))
-        #diagonal 이 양수일 경우 대각선 라인이 왼쪽 상단으로 향함
+
         diagonal = w-2
-        ## lf, hf 나누기
+
         lf_mask = torch.fliplr(torch.triu(mask, diagonal)) == 1
         hf_mask = torch.fliplr(torch.triu(mask, diagonal)) != 1
         
@@ -190,8 +189,7 @@ class H2A2SR(nn.Module):
 
         dhf = x * hf_mask
 
-        ## 모델 시작
-        ## 고주파 집중네트워크
+
         x = self.idct(x)
         hf = self.idct(dhf)
         coefficent = self.x_cof
