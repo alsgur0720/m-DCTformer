@@ -18,6 +18,9 @@ This code is the PyTorch implementation of m-DCTformer.
   <img src="./demo/demo_figure3.jpg">
 </p>
 
+<p align="center">
+  <img src="./demo/demo_figure4.jpg">
+</p>
 
 <p align="center">
   <img src="./demo/demo1.gif">
