@@ -609,8 +609,6 @@ class H2A2SR(nn.Module):
         # x = replicationPad2d(x)
         
         
-        ################## 잔여배율 파트 
-        
         x = self.dct(x)
         x_org = h * w
 
@@ -626,7 +624,7 @@ class H2A2SR(nn.Module):
 
         mask = torch.ones((h, w), dtype=torch.int64, device = torch.device('cuda:0'))
         diagonal = w-20
-        ## lf, hf 나누기
+
         lf_mask = torch.fliplr(torch.triu(mask, diagonal)) == 1
         hf_mask = torch.fliplr(torch.triu(mask, diagonal)) != 1
         
@@ -666,8 +664,6 @@ class H2A2SR(nn.Module):
         
         
         # return result, dhf, temp, ori_dct
-    
-        ################## 잔여배율 파트 
         
         # x = self.restormer(x)
         
