@@ -505,7 +505,7 @@ class H2A2SR(nn.Module):
 
         mask = torch.ones((h, w), dtype=torch.int64, device = torch.device('cuda:0'))
         diagonal = w-2
-        ## lf, hf 나누기
+
         lf_mask = torch.fliplr(torch.triu(mask, diagonal)) == 1
         hf_mask = torch.fliplr(torch.triu(mask, diagonal)) != 1
         
