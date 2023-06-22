@@ -5,11 +5,6 @@ m-DCTformer: Memory-Efficient DCT Domain Weight Modulation Transformer for Arbit
 This code is the PyTorch implementation of m-DCTformer.
 
 
-
-<p align="center">
-  <img src="./demo/demo_figure1.jpg">
-</p>
-
 <p align="center">
   <img src="./demo/demo_figure2.jpg">
 </p>
