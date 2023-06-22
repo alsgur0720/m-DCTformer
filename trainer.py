@@ -133,24 +133,6 @@ class Trainer():
                 ############## swinir
                 
                 
-                
-                ####### matplot 안쓰면 쓰는 코드 #######
-                
-                            
-                # _,C,H,W = hr.size()
-                # # inH , inW =  int(H / 1.25), int(W / 1.25)
-                # inH , inW =  int(H / total_scale), int(W / total_scale)
-                
-                # _, _, hr_H, hr_W = hr.size()
-                
-                # img_hr_pil = Image.fromarray((hr.squeeze(0).permute(1, 2, 0).cpu().numpy()).astype('uint8'))
-                # img_lr_pil = img_hr_pil.resize((inW, inH), Image.BICUBIC)
-                # # img_lr_pil = img_hr_pil.resize((outW, outH), Image.BICUBIC)
-                # lr = torch.from_numpy(np.array(img_lr_pil).astype('float32')).permute(2, 0, 1).unsqueeze(0).to('cuda:0')
-
-                ####### matplot 안쓰면 쓰는 코드 #######
-                
-                
                 # hr = utility.quantize(hr, self.opt.rgb_range)
                 # lr = utility.quantize(lr, self.opt.rgb_range)
                 
@@ -254,8 +236,6 @@ class Trainer():
                    
                     outH,outW,C = hr.size()
                     
-                    #### matplot 안쓰면 쓰는 코드 
-                    
                     # inH , inW =  int(H / total_scale), int(W / total_scale)
                     
                     if (outW % 4 != 0) :
@@ -324,8 +304,6 @@ class Trainer():
                     # sys.exit()
                     
                     # lr = nnf.interpolate(hr, size=(inH, inW), mode='bicubic', align_corners=False).to('cuda:0')
-                    
-                    #### matplot 안쓰면 쓰는 코드 
                     
                     dct_modoule = dct.DCT_2D()
                     idct_module = dct.IDCT_2D()
@@ -488,36 +466,8 @@ class Trainer():
                     # print(hr_y)
                     # print(sr_y)
                     # sys.exit()
-                    
-                    ############# edsr 하면 끄는거
-                    
-                    # print(sr)
-                    # sr = sr.data.squeeze().float().cpu().numpy()
-                    # sr = np.transpose(sr[[2, 1, 0], :, :], (1, 2, 0))
-                    # sr = (sr).round().astype(np.uint8)
-                    # print(sr)
-                    # sys.exit()
-                    
-                    ############# edsr 하면 끄는거
-                    
-                    
                     # hr_dct = dct_modoule(hr)
-                                            
-                                            
-                                            
-                                            
-                    ############# edsr 하면 끄는거                        
-                    
-                    # hr = hr.data.squeeze().float().cpu().numpy()
-                    # hr = np.transpose(hr[[2, 1, 0], :, :], (1, 2, 0))
-                    # hr = (hr).round().astype(np.uint8)  # float32 to uint8
-                    
-                    ############# edsr 하면 끄는거
-                    
-                    
-                    
-                    
-                    
+
                     
                     
                     # hr_dct = hr_dct.data.squeeze().float().cpu().clamp_(0, 1).numpy()
