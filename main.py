@@ -41,8 +41,8 @@ if checkpoint.ok:
 
         checkpoint.done()
 
-    if __name__ == '__main__':  # 중복 방지를 위한 사용
-        freeze_support()  # 윈도우에서 파이썬이 자원을 효율적으로 사용하게 만들어준다.
+    if __name__ == '__main__':
+        freeze_support()
         main()
 
 
