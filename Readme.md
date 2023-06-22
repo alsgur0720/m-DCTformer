@@ -23,7 +23,7 @@ This code is the PyTorch implementation of m-DCTformer.
   <img src="./demo/demo1.gif">
 </p>
 
-[![Into the I-LAND](https://youtu.be/QYNwbZHmh8g?t=0s)](https://youtu.be/QYNwbZHmh8g?t=0s)
+
 
 # Demo Video
 download link : https://drive.google.com/file/d/1SjaKge9VnREX1TXnpRPcuqMj9VbVIfKd/view?usp=sharing
