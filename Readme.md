@@ -7,20 +7,17 @@ This code is the PyTorch implementation of m-DCTformer.
 
 
 <p align="center">
-  <img src="./demo/figure5.jpg">
+  <img src="./demo/demo_figure1.jpg">
 </p>
 
 <p align="center">
-  <img src="./demo/supple_figure12.jpg">
+  <img src="./demo/demo_figure2.jpg">
 </p>
 
 <p align="center">
-  <img src="./demo/supple_figure16.jpg">
+  <img src="./demo/demo_figure3.jpg">
 </p>
 
-<p align="center">
-  <img src="./demo/supple_figure7.jpg">
-</p>
 
 <p align="center">
   <img src="./demo/demo1.gif">
