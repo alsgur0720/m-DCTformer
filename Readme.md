@@ -22,6 +22,10 @@ This code is the PyTorch implementation of m-DCTformer.
   <img src="./demo/supple_figure7.jpg">
 </p>
 
+<p align="center">
+  <img src="./demo/demo.gif">
+</p>
+
 
 
 # Demo Video
