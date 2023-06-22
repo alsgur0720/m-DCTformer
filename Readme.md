@@ -23,7 +23,7 @@ This code is the PyTorch implementation of m-DCTformer.
 </p>
 
 <p align="center">
-  <img src="./demo/demo.gif">
+  <img src="./demo/demo1.gif">
 </p>
 
 
