@@ -41,21 +41,6 @@ parser.add_argument('--pre_train', type=str, default='./weights/X41_edsr_best_wm
 
 
 
-# X41_edsr_best_wm.pt
-# X29_edsr_best_no_wm.pt
-# edsr_x3-ea3ef2c6.pt
-# rdn_x2.pth
-# edsr_X29_best.pt
-# edsr_baseline_x2-1bc95232.pt
-# edsr_x2-0edfb8a3.pt
-# 001_classicalSR_DF2K_s64w8_SwinIR-M_x2.pth
-# 001_classicalSR_DIV2K_s48w8_SwinIR-M_x2.pth
-# X39_3d_kv.pt
-# dct_plut_sr_loss_x2_1.pt
-# X21_3d_dct.pt
-#Swin2SR_ClassicalSR_X2_64.pth
-# parser.add_argument('--pre_train', type=str, default='./mae+weight_modula_time_domain_loss_x39/model/div2k_best_x3.pt',
-                    # help='pre-trained model directory')
 parser.add_argument('--load_pre_trained', type=bool, default=True,
                     help='save output results')
 parser.add_argument('--pre_train_dual', type=str, default='.',
@@ -124,13 +109,6 @@ args.total_scale = args.int_scale + args.float_scale
 args.scale = [args.int_scale]
 
 
-# if args.scale=='':
-#     import numpy as np
-#     #args.scale = np.linspace(1.1,4,30)
-#     
-#     #print(args.scale)
-# else:
-#     args.scale = list(map(lambda x: float(x), args.scale.split('+')))
 print(args.scale)
 
 
