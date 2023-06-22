@@ -22,6 +22,12 @@ This code is the PyTorch implementation of m-DCTformer.
   <img src="./demo/supple_figure7.jpg">
 </p>
 
+
+
+# Demo Video
+download link : https://drive.google.com/file/d/1SjaKge9VnREX1TXnpRPcuqMj9VbVIfKd/view?usp=sharing
+
+
 # Datasets
 
 Images dir : '../DIV2K_dataset/benchmark/Set5/HR'
