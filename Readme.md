@@ -30,10 +30,14 @@ Images dir : '../DIV2K_dataset/benchmark/Set5/HR'
 
 
 # m-DCTformer weights
-dir:
-weights link : https://drive.google.com/file/d/1OzgnpXWDEkUvJOaldArk0yT-rRqAZgyZ/view?usp=sharing
-weights link : https://drive.google.com/file/d/1jAC0sDJx4qTbTijLDQuXJ4077vHDb2Tm/view?usp=sharing
-'./weights'
+dir: './weights'
+
+weights for m-DCTformer link : https://drive.google.com/file/d/1OzgnpXWDEkUvJOaldArk0yT-rRqAZgyZ/view?usp=sharing
+
+
+weights for integer SR network link : https://drive.google.com/file/d/1jAC0sDJx4qTbTijLDQuXJ4077vHDb2Tm/view?usp=sharing
+
+
 
 ## Create enviroments
 pip install -r requirements.txt
