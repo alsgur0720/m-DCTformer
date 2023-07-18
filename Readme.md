@@ -6,7 +6,7 @@ This code is the PyTorch implementation of m-DCTformer.
 
 
 <p align="center">
-  <img src="./demo/demo_figure_2.jpg">
+  <img src="./demo/demo_fugure2.jpg">
 </p>
 
 <p align="center">
